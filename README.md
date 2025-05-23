@@ -16,33 +16,6 @@ Este repositório contém os artefatos, notebooks, scripts e configurações uti
 
     Gerenciamento de ambientes e dependências
 
-🗂 Estrutura Geral do Projeto
-
-📦 mlops-dataops/
-│
-├── 📁 notebooks/              # Notebooks para exploração e experimentos
-│   ├── DataOps - Data Drift.ipynb
-│   ├── AutoML_com_AutoKeras.ipynb
-│   └── train_notebook.ipynb
-│
-├── 📁 src/                    # Scripts centrais da aplicação
-│   ├── main.py
-│   ├── train.py
-│   ├── test_train.py
-│   ├── model_registry.py
-│   └── pipeline.yaml
-│
-├── 📁 config/                 # Configurações e ambientes
-│   ├── environment.yaml
-│   ├── locustfile.py
-│
-├── 📁 docker/                 # Container Docker para execução padronizada
-│   └── Dockerfile
-│
-├── requirements.txt          # Lista de dependências Python
-├── README.md                 # Documentação geral do projeto
-└── .gitignore                # Exclusões de versionamento
-
 🎯 Objetivos Acadêmicos
 
     Entender e aplicar os conceitos de CI/CD para ML
