@@ -2,7 +2,7 @@ import pandas as pd
 import pytest
 from tensorflow.keras.models import Sequential
 
-from train import (read_data,
+from Project.src.train import (read_data,
                    create_model,
                    train_model)
 
